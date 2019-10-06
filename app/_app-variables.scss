@@ -81,10 +81,83 @@ $secondary: $blue-dark;
 $text-color: $blue-dark;
 
 .sidedrawer-avatar {
-    margin-top: 30px;
     border-radius: 50%;
     width: 100;
     height: 100;
-    border-width: 4;
+    border-width: 0;
     border-color: #202020;
+}
+
+.sidedrawer-header-text {
+    color: #000000;
+    font-size: 18;
+    font-weight: bold;
+    margin-top: 10;
+    text-align: center;
+}
+
+.sidedrawer-header-subtext {
+    color: #000000;
+    font-size: 12;
+    text-align: center;
+}
+
+.saldoBox{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    padding: 20px;    
+    border-width: 3px;
+    border-radius: 10%;  
+}
+
+.saldoBoxSemBorda {
+    margin-left: 100px;
+    margin-right: 100px;
+
+    padding: 20px;    
+
+}
+
+.text-Valor {
+    color: rgb(7, 116, 61);
+    font-size: 36;
+    font-weight: bold;
+    margin-top: 10;
+    text-align: center;
+}
+
+.subtext-Valor {
+    color: rgb(7, 116, 61);
+    font-size: 24;
+    font-weight: bold;
+    margin-top: 10;
+    text-align: center;
+}
+
+
+
+.text-Valor-cash {
+    color: rgb(187, 159, 33);
+    font-size: 36;
+    font-weight: bold;
+    margin-top: 10;
+    text-align: center;
+}
+
+.text-cashback-titulo {
+    margin-top: 16;
+    font-size: 22;
+}
+
+.text-Extrato-titulo {
+    margin-top: 10;
+    font-size: 16;
+}
+
+.fonteSolRealize {
+    font-size: 22;
+    font-weight: bold;
+    margin-top: 15;
+    margin-left: 15;
 }

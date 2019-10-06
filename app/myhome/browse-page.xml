@@ -3,19 +3,31 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Realize"></Label>
+    <ActionBar class="action-bar" style="background-color:#0a0a0a">
+        <GridLayout rows="auto" columns="*,*,*" class="home-page-uefa" >
+              <Image col="1" class="uefa-logo" src="~/images/logo.jpg" />
+         </GridLayout>
     </ActionBar>
 
     <GridLayout class="page-content">
-           <GridLayout columns="*,*,*" rows="120, 50,20" style="padding-top:15">
-				<Image row="0" col="1" src="https://www.vagalume.com.br/anitta/images/anitta.jpg" class="sidedrawer-avatar"  />
-				<Label row="1" col="1" text="{{ userName }}" />
-			</GridLayout>
- 
+           <GridLayout columns="*" rows="100, 40, 40, 200, 130" style="padding-top:15">
+				<Image row="0" col="0" src="https://www.vagalume.com.br/anitta/images/anitta.jpg" class="sidedrawer-avatar"  />
+				<Label row="1" col="0" text="{{ userName }}" class="sidedrawer-header-text" /> 
+                <Label row="2" col="0" text="{{ cartao }}" class="sidedrawer-header-subtext" /> 
 
+                <GridLayout row="3" col="0" rows="20, 70, 20, 50" class="saldoBox">
+				     <Label row="0" text="Limite Disponível"></Label>
+                     <Label row="1" text="R$ 1.258,85" class="text-Valor"></Label>
+                     <Label row="2" text="Valor parcial da fatura" style="text-align: center;" ></Label>
+                     <Label row="3" text="R$ 1.258,85" class="subtext-Valor"></Label>
+			    </GridLayout>  
 
-			
+                <GridLayout row="4" col="0" rows="20, 50" class="saldoBox">
+				     <Label row="0" text="Cash-back Acumulado"></Label>
+                     <Label row="1" text="R$ 30,77" class="text-Valor-cash"></Label>
+			    </GridLayout>    
+
+			</GridLayout>  
 
     </GridLayout>
 </Page>

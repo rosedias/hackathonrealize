@@ -4,11 +4,37 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Extrato"></Label>
+          <GridLayout rows="auto" columns="*,*,*" class="home-page-uefa" >
+              <Image col="1" class="uefa-logo" src="~/images/logo.jpg" />
+         </GridLayout>
     </ActionBar>
 
     <GridLayout class="page-content">
-        <Label class="page-icon fa" text="&#xf1ea;"></Label>
-        <Label class="page-placeholder" text="<!-- Browse page content goes here -->"></Label>
+           <GridLayout columns="*" rows="160, 100, 100, 100, 130" style="padding-top:15">
+
+                <GridLayout row="0" col="0" rows="20, 100, 20" class="saldoBoxSemBorda">
+				     <Label row="0" text="Cash-back Acumulado"></Label>
+                     <Label row="1" text="R$ 30,77" class="text-Valor-cash"></Label>
+                     <Label row="2" text="Opções de Resgate"></Label>
+			    </GridLayout> 
+
+
+
+                <GridLayout row="1" col="0" rows="*" class="saldoBox" Tap="onItemTap"  >
+				     <Label row="0" text="Soluções Realize" class="text-cashback-titulo" ></Label>                     
+			    </GridLayout>    
+
+                <GridLayout row="2" col="0" rows="*" class="saldoBox">
+				     <Label row="0" text="Lojas Renner" class="text-cashback-titulo"></Label>                     
+			    </GridLayout>  
+
+                <GridLayout row="3" col="0" rows="*" class="saldoBox" Tap="onItemTap2">
+				     <Label row="0" text="Meu Estilo" class="text-cashback-titulo"></Label>                     
+			    </GridLayout>  
+
+
+
+			</GridLayout>  
+
     </GridLayout>
 </Page>

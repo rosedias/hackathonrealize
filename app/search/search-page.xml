@@ -4,7 +4,9 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Search"></Label>
+        <GridLayout rows="auto" columns="*,*,*" class="home-page-uefa" >
+              <Image col="1" class="uefa-logo" src="~/images/logo.jpg" />
+         </GridLayout>
     </ActionBar>
 
     <GridLayout class="page-content">
