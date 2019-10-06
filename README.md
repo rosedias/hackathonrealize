@@ -31,7 +31,3 @@ Produto Inovação: RealizePay
 3º Rodar Preview executando o comando: tns preview# hackathonrealize
 Projeto Hackthon Realize
 
-Realize Digital Payments: como utilizar tecnologia para atrair clientes para os
-produtos financeiros da Realize, tanto no mundo físico quanto no mundo digital?
-
-
