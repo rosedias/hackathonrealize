@@ -8,7 +8,12 @@
         <Label class="action-bar-title" text="{{ name }}"></Label>
     </ActionBar>
 
-    <GridLayout>
-        <Label class="m-10 h3" text="{{ description }}" verticalAlignment="top" ></Label>
+    <GridLayout rows="40,40,40,40,40">
+        <Label row="0" class="m-10 h3" text="{{ date }}" verticalAlignment="top" ></Label>
+        <Label row="1" class="m-10 h3" text="{{ name }}" verticalAlignment="top" ></Label>
+        <Label row="2" class="m-10 h3" text="{{ tag }}" verticalAlignment="top" ></Label>
+        <Label row="3" class="m-10 h3" text="{{ value }}" verticalAlignment="top" ></Label>
+        <Label row="4" class="m-10 h3" text="{{ description }}" verticalAlignment="top" ></Label>
+        
     </GridLayout>
 </Page>

@@ -5,7 +5,7 @@
 
     <ActionBar class="action-bar" style="background-color:#0a0a0a">
         <GridLayout rows="auto" columns="*,*,*" class="home-page-uefa" >
-              <Image col="1" class="uefa-logo" src="~/images/logo.jpg" />
+              <Image col="1" class="uefa-logo" src="~/images/logo2.jpg" />
          </GridLayout>
     </ActionBar>
 
