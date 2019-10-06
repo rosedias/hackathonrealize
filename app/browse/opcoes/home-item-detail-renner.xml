@@ -9,7 +9,7 @@
     </ActionBar>
 
     <GridLayout columns="*" rows="100, 120, 120, 120">
-                <Label row="0" col="0" text="Meu Estilo" verticalAlignment="top" class="fonteSolRealize" ></Label>
+                <Label row="0" col="0" text="Lojas Renner" verticalAlignment="top" class="fonteSolRealize" ></Label>
 
                 <GridLayout row="1" col="0" rows="30,30,30" columns="200,100" class="saldoBox"  >
 				     <Label row="0" col="0" text="Titulo do Produto 1" style="font-size: 18;"  ></Label>                      
