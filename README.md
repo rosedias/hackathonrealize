@@ -8,7 +8,7 @@ produtos financeiros da Realize, tanto no mundo físico quanto no mundo digital?
 
 Video do APP [Video](https://video.mp4)
 
-![Screenshot](https://screenshot.jpeg)
+![Screenshot](screenshot.jpeg)
 
 Grupo: I9
 Participantes: 
