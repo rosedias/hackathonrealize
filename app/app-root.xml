@@ -24,22 +24,23 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
                 Note TabStripItem will only accept single Label and/or single Image elements that it
                 will "adopt"; any other layout elements you try to specify will be ignored
             -->
-            <Label text="Home" />
+            <Label text="Principal" />
             <Image src="font://&#xf015;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
-            <Label text="Browse" />
-            <Image src="font://&#xf1ea;" class="fa t-36" />
+            <Label text="Cashback" />
+            <Image src="font://&#xf0d6;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
-            <Label text="Search" />
-            <Image src="font://&#xf002;" class="fa t-36" />
+            <Label text="Extrato" /> 
+            <Image src="font://&#xf039;" class="fa t-36" />
         </TabStripItem>
     </TabStrip>
 
     <TabContentItem>
-        <Frame defaultPage="home/home-items-page" />
+        <Frame defaultPage="myhome/browse-page" />
     </TabContentItem>
+    
 
     <TabContentItem>
         <Frame defaultPage="browse/browse-page" />
