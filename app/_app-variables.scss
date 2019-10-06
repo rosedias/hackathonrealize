@@ -43,7 +43,7 @@ $page-content-placeholder-font-size: 20;
 **/
 
 // Colors
-$background: #fff;
+$background: rgb(253, 247, 229);
 $primary: lighten(#000, 13%);
 $secondary: lighten(#000, 46%);
 $disabled: lighten(#000, 62%);
@@ -102,6 +102,17 @@ $text-color: $blue-dark;
     text-align: center;
 }
 
+.saldoBox1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    padding: 20px;    
+    border-width: 3px;
+    border-radius: 10%;  
+    background-color: #202020;
+
+}
+
 .saldoBox{
     margin-left: 100px;
     margin-right: 100px;
@@ -109,6 +120,8 @@ $text-color: $blue-dark;
     padding: 20px;    
     border-width: 3px;
     border-radius: 10%;  
+
+
 }
 
 .saldoBoxSemBorda {

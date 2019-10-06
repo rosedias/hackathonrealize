@@ -14,22 +14,22 @@
 
                 <GridLayout row="0" col="0" rows="20, 100, 20" class="saldoBoxSemBorda">
 				     <Label row="0" text="Cash-back Acumulado"></Label>
-                     <Label row="1" text="R$ 30,77" class="text-Valor-cash"></Label>
+                     <Label row="1" text="R$ 30,77" class="text-Valor-cash" style="color:black"></Label>
                      <Label row="2" text="Opções de Resgate"></Label>
 			    </GridLayout> 
 
 
 
-                <GridLayout row="1" col="0" rows="*" class="saldoBox" Tap="onItemTap"  >
-				     <Label row="0" text="Soluções Realize" class="text-cashback-titulo" ></Label>                     
+                <GridLayout row="1" col="0" rows="*" class="saldoBox" Tap="onItemTap" style="background-color:#4c605f; border-width:0" >
+				     <Label row="0" text="Soluções Realize" class="text-cashback-titulo" style="color:white" ></Label>                     
 			    </GridLayout>    
 
-                <GridLayout row="2" col="0" rows="*" class="saldoBox" Tap="onItemTapRenner">
-				     <Label row="0" text="Lojas Renner" class="text-cashback-titulo"></Label>                     
+                <GridLayout row="2" col="0" rows="*" class="saldoBox" Tap="onItemTapRenner" style="background-color:#d71b20; border-width:0">
+				     <Label row="0" text="Grupo Renner" class="text-cashback-titulo" style="color:white"></Label>                     
 			    </GridLayout>  
 
-                <GridLayout row="3" col="0" rows="*" class="saldoBox" Tap="onItemTapMeuEstilo">
-				     <Label row="0" text="Meu Estilo" class="text-cashback-titulo"></Label>                     
+                <GridLayout row="3" col="0" rows="*" class="saldoBox" Tap="onItemTapMeuEstilo" style="background-color:#b5985a; border-width:0">
+				     <Label row="0" text="Meu Estilo" class="text-cashback-titulo" style="color:white"></Label>                     
 			    </GridLayout>  
 
 

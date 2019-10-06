@@ -15,16 +15,16 @@
 				<Label row="1" col="0" text="{{ userName }}" class="sidedrawer-header-text" /> 
                 <Label row="2" col="0" text="{{ cartao }}" class="sidedrawer-header-subtext" /> 
 
-                <GridLayout row="3" col="0" rows="20, 70, 20, 50" class="saldoBox">
-				     <Label row="0" text="Limite Disponível"></Label>
-                     <Label row="1" text="R$ 1.258,85" class="text-Valor"></Label>
-                     <Label row="2" text="Valor parcial da fatura" style="text-align: center;" ></Label>
-                     <Label row="3" text="R$ 1.258,85" class="subtext-Valor"></Label>
+                <GridLayout row="3" col="0" rows="20, 70, 20, 50" class="saldoBox1">
+				     <Label row="0" text="Limite Disponível" style="color:white"></Label>
+                     <Label row="1" text="R$ 1.258,85" class="text-Valor" style="color:white"></Label>
+                     <Label row="2" text="Valor parcial da fatura" style="text-align: center; color:#bbb" ></Label>
+                     <Label row="3" text="R$ 251,85" class="subtext-Valor" style="color:#bbb"></Label>
 			    </GridLayout>  
 
-                <GridLayout row="4" col="0" rows="20, 50" class="saldoBox">
-				     <Label row="0" text="Cash-back Acumulado"></Label>
-                     <Label row="1" text="R$ 30,77" class="text-Valor-cash"></Label>
+                <GridLayout row="4" col="0" rows="20, 55" class="saldoBox" style="background-color:#d71b20; border-width:0">
+				     <Label row="0" text="Cash-back Acumulado" style="color:white"></Label>
+                     <Label row="1" text="R$ 30,77" class="text-Valor-cash" style="color:white"></Label>
 			    </GridLayout>    
 
 			</GridLayout>  

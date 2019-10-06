@@ -9,26 +9,26 @@
     </ActionBar>
 
     <GridLayout columns="*" rows="100, 120, 120, 120">
-                <Label row="0" col="0" text="Lojas Renner" verticalAlignment="top" class="fonteSolRealize" ></Label>
+                <Label row="0" col="0" text="Grupo Renner" verticalAlignment="top" class="fonteSolRealize" style="color:#d71b20" ></Label>
 
-                <GridLayout row="1" col="0" rows="30,30,30" columns="200,100" class="saldoBox"  >
-				     <Label row="0" col="0" text="Titulo do Produto 1" style="font-size: 18;"  ></Label>                      
-                     <Label row="0" col="1" text="R$ 30,00" style="font-size: 18; font-weight: bold;" ></Label>  
+                <GridLayout row="1" col="0" rows="30,30,30" columns="200,100" class="saldoBox" style="background-color:white; border-width:0" >
+				     <Label row="0" col="0" text="Bonus Renner" style="font-size: 18;"  ></Label>                      
+                     <Label row="0" col="1" text="R$ 30,77" style="font-size: 18; font-weight: bold;" ></Label>  
                      <Label row="2" col="0" text="Valido até 19/10/2020"  ></Label>    
-                     <Label row="1" col="0" text="Descrição do Produto 2"  ></Label>                       
+                     <Label row="1" col="0" text="Vale desconto"  ></Label>                       
 			    </GridLayout>    
 
-                <GridLayout row="2" col="0" rows="30,30,30" columns="200,100" class="saldoBox"  >
-				     <Label row="0" col="0" text="Titulo do Produto 2" style="font-size: 18;"  ></Label>                      
-                     <Label row="0" col="1" text="R$ 15,00" style="font-size: 18; font-weight: bold;" ></Label>  
-                     <Label row="1" col="0" text="Descrição do Produto 2"  ></Label>    
+                <GridLayout row="2" col="0" rows="30,30,30" columns="200,100" class="saldoBox" style="background-color:white; border-width:0" >
+				     <Label row="0" col="0" text="Bonus Camicado" style="font-size: 18;"  ></Label>                      
+                     <Label row="0" col="1" text="R$ 30,77" style="font-size: 18; font-weight: bold;" ></Label>  
+                     <Label row="1" col="0" text="Vale desconto"  ></Label>    
                      <Label row="2" col="0" text="Valido até 19/10/2020"  ></Label>                          
 			    </GridLayout>  
 
-                <GridLayout row="3" col="0" rows="30,30,30" columns="200,100" class="saldoBox"  >
-				     <Label row="0" col="0" text="Titulo do Produto 3" style="font-size: 18;"  ></Label>                      
-                     <Label row="0" col="1" text="R$ 45,00" style="font-size: 18; font-weight: bold;" ></Label>  
-                     <Label row="1" col="0" text="Descrição do Produto 3"  ></Label>      
+                <GridLayout row="3" col="0" rows="30,30,30" columns="200,100" class="saldoBox" style="background-color:white; border-width:0" >
+				     <Label row="0" col="0" text="Bonus Youcom" style="font-size: 18;"  ></Label>                      
+                     <Label row="0" col="1" text="R$ 30,77" style="font-size: 18; font-weight: bold;" ></Label>  
+                     <Label row="1" col="0" text="Vale desconto"  ></Label>      
                      <Label row="2" col="0" text="Valido até 19/10/2020"  ></Label>                        
 			    </GridLayout>  
     </GridLayout>
