@@ -43,10 +43,10 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
     
 
     <TabContentItem>
-        <Frame defaultPage="browse/browse-page" />
+        <Frame defaultPage="cashback/cashback-page" />
     </TabContentItem>
 
     <TabContentItem>
-        <Frame defaultPage="home/home-items-page" />
+        <Frame defaultPage="extrato/extrato-items-page" />
     </TabContentItem>
 </BottomNavigation>
