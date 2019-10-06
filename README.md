@@ -6,7 +6,7 @@ Framework NativeScript https://www.nativescript.org/
 Realize Digital Payments: como utilizar tecnologia para atrair clientes para os
 produtos financeiros da Realize, tanto no mundo físico quanto no mundo digital?
 
-Video do APP [Video](video.mp4)
+Video do APP [Video](https://youtu.be/bRgiLkm3ugc)
 
 ![Screenshot](screenshot.jpeg)
 
